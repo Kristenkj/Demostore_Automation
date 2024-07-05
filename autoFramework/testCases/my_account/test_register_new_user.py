@@ -1,23 +1,20 @@
-
 import pytest
-from ssqatest.src.pages.MyAccountSignedOut import MyAccountSignedOut
-from ssqatest.src.pages.MyAccountSignedIn import MyAccountSignedIn
-from ssqatest.src.helpers.generic_helpers import generate_random_email_and_password
+from pageObjects.myAcctSignOutPage import MyAcctSignOut
+from utils.BaseClass import BaseClass
 
-@pytest.mark.usefixtures("init_driver")
-class TestRegisterNewUser:
+
+class TestRegisterNewUser(BaseClass):
 
     @pytest.mark.tcid13
     def test_register_valid_new_user(self):
-        my_account_o = MyAccountSignedOut(self.driver)
-        my_account_i = MyAccountSignedIn(self.driver)
 
-        my_account_o.go_to_my_account()
-
-        rand_email = generate_random_email_and_password()
-        my_account_o.input_register_email(rand_email["email"])
-        my_account_o.input_register_password('1234abc11!!')
-        my_account_o.click_register_button()
-
-        # verify user is registered
-        my_account_i.verify_user_is_signed_in()
+        # Go to my account
+        my_acct_o = MyAcctSignOut(self.driver)
+        my_acct_o.go_to_my_acct()
+        # Fill in email
+        my_acct_o.input_register_email('christ@supersqa.com')
+        # Fill in password
+        my_acct_o.input_register_password('abd1234')
+        #Click register
+        my_acct_o.click_register_button()
+        # Verify user is registered

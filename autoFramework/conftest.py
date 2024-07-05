@@ -1,5 +1,7 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options as ChOptions
+from selenium.webdriver.firefox.options import Options as FFOptions
 
 
 @pytest.fixture(autouse=True)
@@ -12,6 +14,18 @@ def setup(request, browser_name, url):
         driver = webdriver.Edge()
     elif browser_name == 'IE':
         driver = webdriver.Ie()
+    elif browser_name == ('headlesschrome'):
+        chrome_options = ChOptions()
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--headless')
+        driver = webdriver.Chrome(options=chrome_options)
+    elif browser_name == 'headlessfirefox':
+        ff_options = FFOptions()
+        ff_options.add_argument("--disable-gpu")
+        ff_options.add_argument("--no-sandbox")
+        ff_options.add_argument("--headless")
+        driver = webdriver.Firefox(options=ff_options)
 
     driver.get(url)
     driver.maximize_window()
