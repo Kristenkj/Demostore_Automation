@@ -9,8 +9,6 @@ In addition, I validated the functionality and user interactions of the e-commer
 
 The site that was used: [Demo e-commerce store practice site](http://demostore.supersqa.com/)
 
-This is a mock site that focuses on the ability to automate certain actions with selenium.
-
 ## Table of Contents
 
 - [Test Cases](#test-cases)
@@ -39,36 +37,38 @@ In this document, you will find test scenarios that I specifically created for t
 ## Project Structure
 
 ```
-Proto-Commerce/
-├── configs               # Configuration files
-├── Logs/                 # Log files
-│   ├── logfile.log
-├── reports/              # Test reports
-│   └── allure-results    # Allure results directory
-├── pageObjects/          # Page Object Models
-│   ├── CheckoutPage.py
-│   ├── ConfirmPage.py
-│   ├── HomePage.py
-│   ├── ShopPage.py
-├── screenshots/          # Screenshots of test execution
-│   ├── CheckoutPage.py
-│   ├── ConfirmPage.py
-│   ├── HomePage.py
-│   ├── ShopPage.py
-├── testCases/            # Test files
-│   ├── test_registration.py
-│   ├── test_login.py
-│   ├── test_purchase.py
-│   └── test_form_validations.py
-├── testData/             # Test data files
-│   └── test_form_validations.py
-├── utils/                # Utility functions
-│   ├── helpers.py
-│   ├── BaseClass.py
-│   └── excel_utils.py    # Excel handling functions using openpyxl
-├── conftest.py           # Configuration for pytest
-├── requirements.txt      # Project dependencies
-└── README.md             # Project documentation
+demostore/
+└── autoFramework/  
+    ├── configs               # Configuration files
+    ├── Logs/                 # Log files
+        ├── logfile.log
+    ├── reports/              # Test reports
+        └── allure-results    # Allure results directory
+    ├── pageObjects/         # Page Object Models
+        └── locators 
+        ├── CheckoutPage.py
+        ├── cartPage.py
+        ├── HomePage.py
+        ├── ShopPage.py
+    ├── screenshots/          # Screenshots of test execution
+        ├── CheckoutPage.py
+        ├── ConfirmPage.py
+        ├── HomePage.py
+        ├── ShopPage.py
+    ├── testCases/            # Test files
+        ├── test_registration.py
+        ├── test_login.py
+        ├── test_purchase.py
+        └── test_form_validations.py
+    ├── testData/             # Test data files
+        └── test_form_validations.py
+    ├── utils/                # Utility functions
+        ├── helpers.py
+        ├── BaseClass.py
+        └── excel_utils.py    # Excel handling functions using openpyxl
+    ├── conftest.py           # Configuration for pytest
+    ├── requirements.txt      # Project dependencies
+    └── README.md             # Project documentation
 
 ```
 
