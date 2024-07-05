@@ -1,0 +1,287 @@
+1695585586051	geckodriver	INFO	Listening on 127.0.0.1:64101
+1695585586566	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofilewP1aPE"
+1695585586946	Marionette	INFO	Marionette enabled
+1695585587111	Marionette	INFO	Listening on port 64110
+Read port: 64110
+WebDriver BiDi listening on ws://127.0.0.1:64102
+1695585587231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofilewP1aPE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64102/devtools/browser/fef2dd50-e2e8-4bb9-9176-207d7ccb9bc8
+1695585588539	Marionette	INFO	Stopped listening on port 64110
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1695585590333	geckodriver	INFO	Listening on 127.0.0.1:64123
+1695585590855	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofile5TueBO"
+1695585591356	Marionette	INFO	Marionette enabled
+1695585591470	Marionette	INFO	Listening on port 64132
+Read port: 64132
+WebDriver BiDi listening on ws://127.0.0.1:64124
+1695585591570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofile5TueBO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64124/devtools/browser/432dc257-2f45-4349-856d-a9d98e81eefd
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+1695585599679	Marionette	INFO	Stopped listening on port 64132
+1695585600290	geckodriver	INFO	Listening on 127.0.0.1:64190
+1695585600824	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileTPoJlK"
+1695585601185	Marionette	INFO	Marionette enabled
+1695585601341	Marionette	INFO	Listening on port 64200
+WebDriver BiDi listening on ws://127.0.0.1:64191
+Read port: 64200
+1695585601593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileTPoJlK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64191/devtools/browser/51435b7b-6f53-475c-ad16-f9a9ea9b8882
+1695585613796	Marionette	INFO	Stopped listening on port 64200
+1695585614341	geckodriver	INFO	Listening on 127.0.0.1:64258
+1695585614856	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileuKqLEJ"
+1695585615303	Marionette	INFO	Marionette enabled
+1695585615428	Marionette	INFO	Listening on port 64266
+Read port: 64266
+WebDriver BiDi listening on ws://127.0.0.1:64259
+1695585615527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileuKqLEJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64259/devtools/browser/237a83b2-8ac6-495e-b7e3-af50ca01fbca
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+1695585622265	Marionette	INFO	Stopped listening on port 64266
+1695585622812	geckodriver	INFO	Listening on 127.0.0.1:64323
+1695585623324	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileMeaxz4"
+1695585623776	Marionette	INFO	Marionette enabled
+1695585623902	Marionette	INFO	Listening on port 64332
+Read port: 64332
+WebDriver BiDi listening on ws://127.0.0.1:64324
+1695585624009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileMeaxz4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64324/devtools/browser/4fb1ff40-b945-4108-8018-6327e586fb29
+1695585628189	Marionette	INFO	Stopped listening on port 64332
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1695585628839	geckodriver	INFO	Listening on 127.0.0.1:64390
+1695585629323	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileKFv6R8"
+1695585629750	Marionette	INFO	Marionette enabled
+1695585629793	Marionette	INFO	Listening on port 64399
+Read port: 64399
+WebDriver BiDi listening on ws://127.0.0.1:64391
+1695585629899	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileKFv6R8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64391/devtools/browser/8f00370b-5810-411a-ab17-220c863fc77c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+1695585635285	Marionette	INFO	Stopped listening on port 64399
+1695585635820	geckodriver	INFO	Listening on 127.0.0.1:64462
+1695585636339	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofile5Fr6eQ"
+1695585636689	Marionette	INFO	Marionette enabled
+1695585636853	Marionette	INFO	Listening on port 64472
+Read port: 64472
+WebDriver BiDi listening on ws://127.0.0.1:64463
+1695585636944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofile5Fr6eQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64463/devtools/browser/667ff936-d19b-41f9-b36d-b4f8174a188e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+1695585641721	Marionette	INFO	Stopped listening on port 64472
+1695585642274	geckodriver	INFO	Listening on 127.0.0.1:64526
+1695585642792	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileA8dFnZ"
+1695585643148	Marionette	INFO	Marionette enabled
+1695585643306	Marionette	INFO	Listening on port 64535
+Read port: 64535
+WebDriver BiDi listening on ws://127.0.0.1:64527
+1695585643398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileA8dFnZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64527/devtools/browser/19aa880a-fa7c-420d-b961-58e2a729d77c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+1695585648396	Marionette	INFO	Stopped listening on port 64535
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1695585648911	geckodriver	INFO	Listening on 127.0.0.1:64592
+1695585649436	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofiletsLll8"
+1695585649952	Marionette	INFO	Marionette enabled
+1695585650109	Marionette	INFO	Listening on port 64601
+Read port: 64601
+WebDriver BiDi listening on ws://127.0.0.1:64593
+1695585650213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofiletsLll8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64593/devtools/browser/f1c2c346-e357-4a87-b470-70c94fe54937
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1695585665017	Marionette	INFO	Stopped listening on port 64601
+1695585665522	geckodriver	INFO	Listening on 127.0.0.1:64665
+1695585666049	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileItaq4d"
+1695585666470	Marionette	INFO	Marionette enabled
+1695585666598	Marionette	INFO	Listening on port 64674
+Read port: 64674
+WebDriver BiDi listening on ws://127.0.0.1:64666
+1695585666715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileItaq4d/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64666/devtools/browser/1be23ca5-5da5-42ef-a83c-68198e43a5a9
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8888/localdemostore/wp-includes/js/wp-util.min.js?ver=6.3.1, line 2: TypeError: _.template is not a function
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+1695585671544	Marionette	INFO	Stopped listening on port 64674
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1695585672032	geckodriver	INFO	Listening on 127.0.0.1:64746
+1695585672552	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofile2FJHFp"
+1695585672924	Marionette	INFO	Marionette enabled
+1695585672963	Marionette	INFO	Listening on port 64755
+Read port: 64755
+WebDriver BiDi listening on ws://127.0.0.1:64747
+1695585673078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofile2FJHFp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64747/devtools/browser/d28fe429-1768-4240-87a3-871528b30659
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: http://127.0.0.1:8888/localdemostore/wp-includes/js/wp-util.min.js?ver=6.3.1, line 2: TypeError: _.template is not a function
+1695585684450	Marionette	INFO	Stopped listening on port 64755
+1695585773817	geckodriver	INFO	Listening on 127.0.0.1:64880
+1695585773834	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileuuYCir"
+1695585774217	Marionette	INFO	Marionette enabled
+1695585774268	Marionette	INFO	Listening on port 64886
+Read port: 64886
+WebDriver BiDi listening on ws://127.0.0.1:64881
+1695585774399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofileuuYCir/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64881/devtools/browser/a6c8cebf-59a5-4bf3-96a4-4ea7f7a6f869
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+1695585778939	Marionette	INFO	Stopped listening on port 64886
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
+1695693405254	geckodriver	INFO	Listening on 127.0.0.1:57137
+1695693405772	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofilejREMzV"
+1695693406200	Marionette	INFO	Marionette enabled
+1695693406394	Marionette	INFO	Listening on port 57146
+Read port: 57146
+WebDriver BiDi listening on ws://127.0.0.1:57138
+1695693406476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/1q/cm4x9r6s6y9g111ghk919v5c0000gn/T/rust_mozprofilejREMzV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57138/devtools/browser/d963a5f6-39de-496c-ad54-fea99854c795
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://127.0.0.1:8888."
+1695693412307	Marionette	INFO	Stopped listening on port 57146
