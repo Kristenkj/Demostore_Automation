@@ -21,8 +21,9 @@ The site that was used: [Demo e-commerce store practice site](http://demostore.s
 The automated test cases cover the following functionalities:
 * Product Listing and Purchase: Tests the process of browsing products and completing a purchase.
 * Form Validations: Checks form validations and error messages.
+* Account registration and Login: Creating an account and logging in
+* Applying Coupons: Utilizing coupons to test functionality
 
-In this document, you will find test scenarios that I specifically created for this project: [Test scenarios]( )
 
 ## Technologies Used
 
@@ -33,6 +34,7 @@ In this document, you will find test scenarios that I specifically created for t
 - Logger: For logging test execution details
 - Jenkins: For CI/CD
 - Faker: For generating fake data for testing
+- Random: For generating random emails and passwords
 
 ## Project Structure
 
