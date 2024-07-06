@@ -1,5 +1,5 @@
 from extensions.SeleniumExtended import SeleniumExtended
-from pageObjects.locators.MyAcctSignOutLocator import MyAcctSignOutLocator
+from autoFramework.pageObjects.locators.MyAcctSignOutLocator import MyAcctSignOutLocator
 import logging as logger
 from utils.BaseClass import BaseClass
 from utils.helpers.config_helpers import get_base_url
@@ -8,6 +8,7 @@ from utils.helpers.config_helpers import get_base_url
 class MyAcctSignOut(MyAcctSignOutLocator, BaseClass):
 
     endpoint = '/my-account'
+
     def __init__(self, driver):
         self.driver = driver
         self.sl = SeleniumExtended(self.driver)
@@ -19,10 +20,10 @@ class MyAcctSignOut(MyAcctSignOutLocator, BaseClass):
         self.driver.get(my_account_url)
 
     def input_login_username(self, username):
-        self.sl.wait_and_input_text(username, self.LOGIN_USER_NAME)
+        self.sl.wait_and_input_text(self.LOGIN_USER_NAME, username)
 
     def input_login_password(self, password):
-        self.sl.wait_and_input_text(password, self.LOGIN_PASSWORD)
+        self.sl.wait_and_input_text(self.LOGIN_PASSWORD, password)
 
     def click_login_button(self):
         logger.debug("Clicking 'Login' button.")
@@ -35,10 +36,8 @@ class MyAcctSignOut(MyAcctSignOutLocator, BaseClass):
         self.sl.wait_and_input_text(self.REGISTER_EMAIL, email)
 
     def input_register_password(self, password):
-        self.sl.wait_and_input_text(self.RIGISTER_PASSWORD,password)
+        self.sl.wait_and_input_text(self.REGISTER_PASSWORD, password)
 
     def click_register_button(self):
         logger.debug("Clicking 'Register' button.")
         self.sl.wait_and_click(self.REGISTER_BTN)
-
-

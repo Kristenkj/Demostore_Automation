@@ -4,28 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b7d341-2517-4439-8982-fae04379d88d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/demostore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/cartPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/homePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/locators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/locators/myAcctSignOutLocator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/myAcctSignInPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/myAcctSignOutPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/testCases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/testCases/test_dummy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/utils/BaseClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoFramework/utils/helpers/__init__.py" afterDir="false" />
+    <list default="true" id="28b7d341-2517-4439-8982-fae04379d88d" name="Changes" comment="7/5/2024">
+      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/Header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/checkOutPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoFramework/pageObjects/orderReceivedPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoFramework/testCases/end_to_end/test_end_to_end_checkout_guest_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/extensions/SeleniumExtended.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/extensions/SeleniumExtended.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/cartPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/pageObjects/cartPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/homePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/pageObjects/homePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/locators/CheckoutPageLocators.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/pageObjects/locators/CheckoutPageLocators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/locators/HeaderLocators.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/pageObjects/locators/HeaderLocators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/locators/MyAccountSignedInLocators.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/pageObjects/locators/MyAccountSignedInLocators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/locators/MyAccountSignedOutLocator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/locators/MyAcctSignOutLocator.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/pageObjects/locators/MyAcctSignOutLocator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/myAcctSignInPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/pageObjects/myAcctSignInPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/pageObjects/myAcctSignOutPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/pageObjects/myAcctSignOutPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/testCases/my_account/test_login_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/testCases/my_account/test_login_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFramework/testCases/my_account/test_register_new_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoFramework/testCases/my_account/test_register_new_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kristenkj&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kristenkj/Demostore_Automation.git&quot;,
+    &quot;accountId&quot;: &quot;188a2adb-19e7-4030-a38b-fcb06f0f4dd3&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -51,12 +59,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_end_to_end_checkout_guest_user.TestEndToEndCheckoutGuestUser.test_end_to_end_checkout_guest_user.executor": "Run",
+    "Python tests.Python tests for test_login_negative.TestLoginNegative.executor": "Run",
+    "Python tests.Python tests for test_login_negative.TestLoginNegative.test_login_none_existing_user.executor": "Run",
+    "Python tests.Python tests for test_register_new_user.TestRegisterNewUser.test_register_valid_new_user.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jones\Python-Programs\demostore\autoFramework\extensions" />
+      <recent name="C:\Users\jones\Python-Programs\demostore\sample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_end_to_end_checkout_guest_user.TestEndToEndCheckoutGuestUser.test_end_to_end_checkout_guest_user">
+    <configuration name="Python tests for test_end_to_end_checkout_guest_user.TestEndToEndCheckoutGuestUser.test_end_to_end_checkout_guest_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demostore" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoFramework/testCases/end_to_end" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_end_to_end_checkout_guest_user.TestEndToEndCheckoutGuestUser.test_end_to_end_checkout_guest_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login_negative.TestLoginNegative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demostore" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoFramework/testCases/my_account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_negative.TestLoginNegative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login_negative.TestLoginNegative.test_login_none_existing_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demostore" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoFramework/testCases/my_account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_negative.TestLoginNegative.test_login_none_existing_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_register_new_user.TestRegisterNewUser.test_register_valid_new_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demostore" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoFramework/testCases/my_account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_register_new_user.TestRegisterNewUser.test_register_valid_new_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_end_to_end_checkout_guest_user.TestEndToEndCheckoutGuestUser.test_end_to_end_checkout_guest_user" />
+        <item itemvalue="Python tests.Python tests for test_register_new_user.TestRegisterNewUser.test_register_valid_new_user" />
+        <item itemvalue="Python tests.Python tests for test_login_negative.TestLoginNegative.test_login_none_existing_user" />
+        <item itemvalue="Python tests.Python tests for test_login_negative.TestLoginNegative" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,6 +161,30 @@
       <option name="presentableId" value="Default" />
       <updated>1719487520447</updated>
     </task>
+    <task id="LOCAL-00001" summary="7/5/2024">
+      <option name="closed" value="true" />
+      <created>1720220690756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720220690756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="7/5/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/5/2024" />
   </component>
 </project>
