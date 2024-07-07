@@ -1,4 +1,4 @@
-### 🚀 Custom QA Automation Framework for DEMO E-commerce Site - In progress
+### 🚀 Custom Hybrid Automation Framework for DEMO E-commerce Site - In progress
 
 
 ## Project Description
