@@ -41,36 +41,52 @@ The automated test cases cover the following functionalities:
 ```
 demostore/
 └── autoFramework/  
-    ├── configs               # Configuration files
-    ├── Logs/                 # Log files
+    ├── configs                                   # Configuration files
+         └── ggeneric_configs
+    ├── Logs/                                     # Log files
         ├── logfile.log
-    ├── reports/              # Test reports
-        └── allure-results    # Allure results directory
-    ├── pageObjects/         # Page Object Models
-        └── locators 
-        ├── CheckoutPage.py
+    ├── extensions/                 
+        ├── SeleniumExtended
+    ├── reports/                                  # Test reports
+        └── allure-results                        # Allure results directory
+    ├── pageObjects/                              # Page Object Models
+            └── locators/
+                ├── CartPageLocators                
+                ├── ChecoutPageLocators
+                ├── HomePageLocators
+                ├── MyAccountSignedInLocators
+                ├── MyAcctSignOutLocators
+                ├── OrderReceivedPageLocators
+                └── HeaderLocators
+        ├── checkOutPage.py
         ├── cartPage.py
-        ├── HomePage.py
-        ├── ShopPage.py
-    ├── screenshots/          # Screenshots of test execution
+        ├── homePage.py
+        ├── MyAcctSignInPage.py
+        ├── MyAcctSignOutPage.py
+        ├── Header.py
+        └── orderReceivedPage.py
+    ├── screenshots/                               # Screenshots of test execution
         ├── CheckoutPage.py
         ├── ConfirmPage.py
         ├── HomePage.py
         ├── ShopPage.py
-    ├── testCases/            # Test files
-        ├── test_registration.py
-        ├── test_login.py
-        ├── test_purchase.py
+    ├── testCases/                                 # Test files
+        ├── end_to_end/
+            ├── test_end_to_end_checkout_guest_user_story.py
+        ├── my_account/
+            ├── test_login_negative.py
+            └── test_register_new_user.py
+        └── test_dummy.py
+    ├── testData/                                  # Test data files
         └── test_form_validations.py
-    ├── testData/             # Test data files
-        └── test_form_validations.py
-    ├── utils/                # Utility functions
+    ├── utils/                                     # Utility functions
         ├── helpers.py
+            └── generic_helpers.py
         ├── BaseClass.py
-        └── excel_utils.py    # Excel handling functions using openpyxl
-    ├── conftest.py           # Configuration for pytest
-    ├── requirements.txt      # Project dependencies
-    └── README.md             # Project documentation
+        └── excel_utils.py                       # Excel handling functions using openpyxl
+    ├── conftest.py                              # Configuration for pytest
+    ├── requirements.txt                         # Project dependencies
+    └── README.md                                # Project documentation
 
 ```
 
