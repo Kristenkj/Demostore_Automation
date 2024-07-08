@@ -1,13 +1,14 @@
 import pytest
-from autoFramework.pageObjects.myAcctSignOutPage import MyAcctSignOut
+from pageObjects.myAcctSignOutPage import MyAcctSignOut
 from utils.BaseClass import BaseClass
 from utils.helpers.generic_helpers import generate_random_email_and_password
 from pageObjects.myAcctSignInPage import MyAcctSignIn
+
+
 class TestRegisterNewUser(BaseClass):
 
     @pytest.mark.tcid13
     def test_register_valid_new_user(self):
-
         # Go to my account
         my_acct_o = MyAcctSignOut(self.driver)
         my_acct_i = MyAcctSignIn(self.driver)

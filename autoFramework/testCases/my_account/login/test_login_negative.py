@@ -1,5 +1,5 @@
 import pytest
-from autoFramework.pageObjects.myAcctSignOutPage import MyAcctSignOut
+from pageObjects.myAcctSignOutPage import MyAcctSignOut
 from utils.BaseClass import BaseClass
 
 
